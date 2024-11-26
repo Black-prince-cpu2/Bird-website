@@ -1,10 +1,10 @@
-p{
+/* p{
     color: white;
     
-}
+} */
 
 .head{
-    text-shadow:2px 2px 5px rgba(0, 0, 0, 0.585);
+    text-shadow:4px 4px 10px rgba(0, 0, 0, 0.585);
     font-family: Arial, Helvetica, sans-serif;
     color:white;
 }
@@ -12,14 +12,57 @@ p{
 .alpha{
     font-size:10em;
 }
+.pre-sub{
+    font-size:5em ;
+}
 
 .sub{
     font-size:2em;
 }
 
 .content{
-    background-color: rgba(0, 0, 0, 0.247);
-    box-shadow:4px 4px 5px rgba(0, 0, 0, 0.193);
+    background-color: rgba(0, 0, 0, 0.416);
+    border:2px solid rgba(0, 0, 0, 0.25);
+    box-shadow:4px 4px 5px rgba(0, 0, 0, 0.5);
     border-radius:20px;
     font-family: cursive;
+    height: fit-content;
+    padding:15px;
+    display:inline-block;
+    
+    
+    
+}
+
+p{
+    padding: 1em;
+    font-size:1em;
+    font-family: cursive;
+    color: white;
+}   
+
+.alpha-flex{
+    display:inline-block;
+    width: 320px;
+    
+
+    
+}
+div{
+    margin: 2.5px;
+    color:white;
+}
+
+.description{
+background-color: coral;
+border:2px solid black;
+padding:10%
+}
+
+.beta{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+img{
+    border-radius:20px;
 }
