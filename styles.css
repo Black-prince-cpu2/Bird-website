@@ -45,10 +45,11 @@ p{
 }
     
 
-@media (max-width: 720px){
+@media (max-width: 720px) {
     .alpha-flex {
         width:100%;
         display:block;
+        
     }
 }
     
